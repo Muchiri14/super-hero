@@ -56,7 +56,7 @@ Response
 
 json
 
-- [
+` [
   {
     "id": 1,
     "name": "Kamala Khan",
@@ -72,7 +72,7 @@ json
     "name": "Gwen Stacy",
     "super_name": "Spider-Gwen"
   }
-]
+]`
 
 - GET /heroes/:id
 Returns the hero with the specified ID, along with their associated powers.
@@ -81,7 +81,7 @@ Response
 
 json
 
-- {
+` {
   "id": 1,
   "name": "Kamala Khan",
   "super_name": "Ms. Marvel",
@@ -90,4 +90,4 @@ json
       "id": 1,
       "name": "super strength",
       "description": "gives the wielder super-human strengths"
-    },
+    } `

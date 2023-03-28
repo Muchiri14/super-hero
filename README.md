@@ -55,8 +55,8 @@ Returns a list of all heroes in the database.
 Response
 
 json
-Copy code
-[
+
+- [
   {
     "id": 1,
     "name": "Kamala Khan",
@@ -80,8 +80,8 @@ Returns the hero with the specified ID, along with their associated powers.
 Response
 
 json
-Copy code
-{
+
+- {
   "id": 1,
   "name": "Kamala Khan",
   "super_name": "Ms. Marvel",
